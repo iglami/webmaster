@@ -115,7 +115,11 @@ section { padding-inline: var(--margen); }
   max-width: 24ch;
 }
 
-.hero__accion { display: block; margin-top: 24px; }
+.hero__accion {
+  display: block;
+  margin-top: 24px;
+  width: fit-content;
+}
 
 .boton {
   display: inline-block;
@@ -348,7 +352,7 @@ section { padding-inline: var(--margen); }
   line-height: 1.15;
 }
 .contacto__foto { grid-column: 8 / 10; width: 160px; height: 160px; object-fit: cover; }
-.contacto__enlaces { grid-column: 10 / 13; }
+.contacto__enlaces { grid-column: 10 / 13; padding-right: var(--margen); }
 .contacto__enlaces .pregunta { font-size: var(--step-body); font-weight: 500; }
 .contacto__enlaces ul { list-style: none; margin-top: 20px; display: flex; flex-direction: column; gap: 8px; }
 .contacto__enlaces a { font-size: var(--step-body); overflow-wrap: anywhere; }
@@ -423,6 +427,9 @@ section { padding-inline: var(--margen); }
   .contacto { grid-template-columns: 1fr; }
   .contacto__frase, .contacto__foto, .contacto__enlaces { grid-column: 1; }
   .contacto__frase { font-size: 1.75rem; max-width: 30ch; }
+  .contacto__enlaces { padding-right: 0; }
+  .pie__columnas { grid-template-columns: 1fr 1fr; gap: 32px 24px; }
+  .pie__col, .pie__col:nth-child(1), .pie__col:nth-child(2), .pie__col:nth-child(3), .pie__col:nth-child(4) { grid-column: auto; }
 }
 
 /* ============================================================
@@ -432,7 +439,8 @@ section { padding-inline: var(--margen); }
   :root { --margen: 20px; }
 
   .hero { display: block; min-height: 0; padding-bottom: 0; position: relative; }
-  .hero__der { order: -1; }
+  .hero__izq { order: 2; }
+  .hero__der { order: 1; }
   .hero__parrafo { margin-top: 24px; }
   .hero__nav { display: none; }
   .hero__titular { font-size: 15vw; margin-top: 16px; }
@@ -463,6 +471,7 @@ section { padding-inline: var(--margen); }
   .contacto__frase, .contacto__foto, .contacto__enlaces { grid-column: 1; }
   .contacto__frase { font-size: 1.5rem; }
   .contacto__foto { width: 96px; height: 96px; }
+  .contacto__enlaces { padding-right: 0; }
 
   .pie__columnas { grid-template-columns: 1fr 1fr; gap: 32px 16px; }
   .pie__col, .pie__col:nth-child(1), .pie__col:nth-child(2), .pie__col:nth-child(3), .pie__col:nth-child(4) { grid-column: auto; }

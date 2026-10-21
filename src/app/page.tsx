@@ -55,9 +55,6 @@ export default function Home() {
             <p className="hero__parrafo">
               Servicios IT sobre Alibaba Cloud con oficio artesanal: nube, diseño y código.
             </p>
-            <a className="boton hero__accion" href={`mailto:${CORREO}?subject=Presupuesto%20WebMaster`}>
-              Pedir presupuesto
-            </a>
           </div>
 
           <div className="hero__der">
@@ -72,6 +69,10 @@ export default function Home() {
               <span className="linea">Tejemos</span>
               <span className="linea">software</span>
             </h1>
+
+            <a className="boton hero__accion" href={`mailto:${CORREO}?subject=Presupuesto%20WebMaster`}>
+              Pedir presupuesto
+            </a>
           </div>
 
           <div className="hero__foto">

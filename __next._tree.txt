@@ -1,0 +1,5 @@
+:HL["/_next/static/chunks/11cqeu5m1ta19.css","style"]
+:HL["/obras/part-of-a-loom.jpg","image"]
+:HL["/obras/news-of-the-stag-from-the-series.jpg","image"]
+1:[["children",{"s":"__PAGE__","h":160}]]
+0:{"b":"4ay2cZ9uprKyTGx4Ibj3c","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

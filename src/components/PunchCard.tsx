@@ -5,6 +5,13 @@ import { useState } from "react";
 const COLS = 10;
 const ROWS = 6;
 
+interface PunchCardProps {
+  titulo: string;
+  ayuda: string;
+  botonLimpiar: string;
+  pie: string;
+}
+
 /* Patrón inicial: rayas diagonales que se leen como trama tejida. */
 function patronInicial(): Set<number> {
   const set = new Set<number>();
@@ -16,7 +23,7 @@ function patronInicial(): Set<number> {
   return set;
 }
 
-export default function PunchCard() {
+export default function PunchCard({ titulo, ayuda, botonLimpiar, pie }: PunchCardProps) {
   const [agujeros, setAgujeros] = useState<Set<number>>(patronInicial);
 
   function alternar(idx: number) {
@@ -34,11 +41,8 @@ export default function PunchCard() {
 
   return (
     <div className="telar">
-      <p className="telar__titulo">Pica tu tarjeta Jacquard</p>
-      <p className="telar__ayuda">
-        Toca los agujeros de la tarjeta: cada agujero decide un hilo de la trama. Así
-        programaba el telar de 1804.
-      </p>
+      <p className="telar__titulo">{titulo}</p>
+      <p className="telar__ayuda">{ayuda}</p>
 
       <div className="telar__rejilla" role="group" aria-label="Tarjeta perforada, 10 columnas por 6 filas">
         {Array.from({ length: ROWS * COLS }, (_, idx) => (
@@ -60,9 +64,9 @@ export default function PunchCard() {
       </div>
 
       <p className="telar__pie">
-        {agujeros.size} hilos en la trama.{" "}
+        {agujeros.size} {pie}{" "}
         <button type="button" onClick={limpiar} style={{ background: "none", border: 0, color: "var(--accent)", textDecoration: "underline", cursor: "pointer", font: "inherit" }}>
-          Descardar la tarjeta
+          {botonLimpiar}
         </button>
       </p>
     </div>

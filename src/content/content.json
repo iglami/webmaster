@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "title": "WebMaster: Servicios IT tejidos como las artes",
+    "description": "Agencia de servicios IT sobre Alibaba Cloud: nube, diseño y desarrollo con oficio artesanal. Del hilo a la obra."
+  },
+  "hero": {
+    "marcaInicio": "Web",
+    "marcaFin": "Master",
+    "parrafo": "Servicios IT sobre Alibaba Cloud con oficio artesanal: nube, diseño y código.",
+    "titular": [
+      "Tejemos",
+      "software"
+    ],
+    "accion": "Pedir presupuesto",
+    "cifra": {
+      "numero": "1804",
+      "texto": "Jacquard programaba el telar con tarjetas perforadas. Nosotros, con código."
+    },
+    "foto": {
+      "src": "/obras/part-of-a-loom.jpg",
+      "alt": "Pieza de madera de un telar egipcio, del Metropolitan Museum of Art",
+      "w": 4000,
+      "h": 2250
+    }
+  },
+  "nav": [
+    {
+      "href": "#servicios",
+      "label": "Servicios"
+    },
+    {
+      "href": "#metodo",
+      "label": "Método"
+    },
+    {
+      "href": "#galeria",
+      "label": "Galería"
+    },
+    {
+      "href": "#contacto",
+      "label": "Contacto"
+    }
+  ],
+  "servicios": {
+    "titulo": "Servicios",
+    "columnas": [
+      "WebMaster",
+      "Agencia al uso",
+      "Cloud por tu cuenta"
+    ],
+    "filas": [
+      [
+        "Diseño original, sin plantillas",
+        "Sí, pieza única",
+        "Según presupuesto",
+        "Plantilla y suerte"
+      ],
+      [
+        "Infraestructura Alibaba Cloud",
+        "Incluida y gestionada",
+        "Se factura aparte",
+        "Tuya, con sus sustos"
+      ],
+      [
+        "SEO y rendimiento de arranque",
+        "Incluidos",
+        "Extra de última hora",
+        "Manual de por medio"
+      ],
+      [
+        "Copias de seguridad",
+        "Diarias, automáticas",
+        "Si las pides",
+        "Cuando te acuerdas"
+      ],
+      [
+        "Monitorización continua",
+        "Alerta en un minuto",
+        "Tickets y esperas",
+        "La de tu proveedor"
+      ],
+      [
+        "Código fuente",
+        "Tuyo, con historial git",
+        "Licencia de uso",
+        "Obvio, es tuyo"
+      ],
+      [
+        "Plazo de entrega",
+        "De tres a seis semanas",
+        "De tres a nueve meses",
+        "Cuando puedas"
+      ],
+      [
+        "Precio",
+        "Cerrado antes de empezar",
+        "Y ya veremos",
+        "El de las sorpresas"
+      ]
+    ]
+  },
+  "metodo": {
+    "titulo": "Del hilo a la obra",
+    "intro": "Reunimos el brief, lo tejemos sobre Alibaba Cloud y lo publicamos con oficio: cada obra sale lista para vivir, no para parchear.",
+    "pasos": [
+      {
+        "titulo": "Reunir",
+        "texto": "Brief, referencias y datos del negocio: los hilos sueltos que traes a la mesa."
+      },
+      {
+        "titulo": "Tejer",
+        "texto": "Arquitectura, diseño y código en el telar: la urdimbre en Alibaba Cloud, la trama en cada línea."
+      },
+      {
+        "titulo": "Publicar",
+        "texto": "Despliegue, CDN, monitorización y cuidado: la obra colgada y viva."
+      }
+    ]
+  },
+  "galeria": {
+    "declaracion": "La trama visible: tejidos y telares reales que inspiran el oficio, del telar de madera a la nube.",
+    "punchcard": {
+      "titulo": "Pica tu tarjeta Jacquard",
+      "ayuda": "Toca los agujeros de la tarjeta: cada agujero decide un hilo de la trama. Así programaba el telar de 1804.",
+      "botonLimpiar": "Descartar la tarjeta",
+      "pie": "hilos en la trama."
+    },
+    "hoja": [
+      {
+        "src": "/obras/news-of-the-stag-from-the-series.jpg",
+        "w": 4000,
+        "h": 2929,
+        "ratio": "16/9",
+        "cap": "La cacería del ciervo, tapiz"
+      },
+      {
+        "src": "/obras/coverlet.jpg",
+        "w": 3740,
+        "h": 3920,
+        "ratio": "1/1",
+        "cap": "Cubrecama Jacquard, 1850"
+      },
+      {
+        "src": "/obras/joseph-marie-jacquard.jpg",
+        "w": 2560,
+        "h": 3008,
+        "ratio": "3/4",
+        "cap": "Joseph Marie Jacquard, tejido"
+      },
+      {
+        "src": "/obras/loom-width-with-serrated-leaf-design.jpg",
+        "w": 1667,
+        "h": 3918,
+        "ratio": "2/5",
+        "cap": "Ancho de telar, seda lampas"
+      },
+      {
+        "src": "/obras/woven-coverlet-fragment.jpg",
+        "w": 2505,
+        "h": 2233,
+        "ratio": "1/1",
+        "cap": "Fragmento de cubrecama, 1841"
+      },
+      {
+        "src": "/obras/coverlet-2.jpg",
+        "w": 1617,
+        "h": 2017,
+        "ratio": "4/5",
+        "cap": "Cubrecama, Peter Leisey"
+      },
+      {
+        "src": "/obras/girl-playing-a-recorder.jpg",
+        "w": 1440,
+        "h": 1432,
+        "ratio": "1/1",
+        "cap": "Música con flauta, tapiz"
+      },
+      {
+        "src": "/obras/hannah-and-the-infant-samuel.jpg",
+        "w": 2241,
+        "h": 2809,
+        "ratio": "3/4",
+        "cap": "Ana y Samuel, tapiz"
+      },
+      {
+        "src": "/obras/anthony-van-dyck-self-portrait.jpg",
+        "w": 2361,
+        "h": 2665,
+        "ratio": "1/1",
+        "cap": "Autorretrato de Van Dyck, tapiz"
+      },
+      {
+        "src": "/obras/part-of-a-loom.jpg",
+        "w": 4000,
+        "h": 2250,
+        "ratio": "16/9",
+        "cap": "Pieza de telar, Egipto"
+      }
+    ]
+  },
+  "contacto": {
+    "frase": "¿Un proyecto que tejer? Trazamos su patrón en cuarenta y ocho horas.",
+    "foto": {
+      "src": "/obras/joseph-marie-jacquard.jpg",
+      "alt": "Retrato tejido de Joseph Marie Jacquard, 1839",
+      "w": 2560,
+      "h": 3008
+    },
+    "pregunta": "¿Hablamos?",
+    "correo": "hola@webmaster.dev",
+    "telefono": "+34 600 123 456",
+    "nota": "Valencia · respuesta en 24 h laborables"
+  },
+  "footer": {
+    "marca": "WebMaster",
+    "descripcion": "Agencia de servicios IT evocada a las artes.",
+    "direccion": "Calle del Telar 1804, Valencia",
+    "nav": [
+      {
+        "href": "#servicios",
+        "label": "Servicios"
+      },
+      {
+        "href": "#metodo",
+        "label": "Método"
+      },
+      {
+        "href": "#galeria",
+        "label": "Galería"
+      },
+      {
+        "href": "#contacto",
+        "label": "Contacto"
+      }
+    ],
+    "servicios": [
+      "Diseño y desarrollo web",
+      "Infraestructura Alibaba Cloud",
+      "SEO y rendimiento",
+      "Mantenimiento y monitorización"
+    ],
+    "legal": "© 2026 WebMaster. Todos los derechos reservados.",
+    "creditos": {
+      "texto": "Obras de la galería: dominio público (CC0), The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection"
+    }
+  },
+  "video": {
+    "src": "",
+    "poster": "",
+    "alt": "Telar en movimiento"
+  }
+}

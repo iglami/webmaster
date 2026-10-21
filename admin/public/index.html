@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebMaster — Editor de contenido</title>
+  <link rel="stylesheet" href="/admin.css">
+</head>
+<body>
+
+  <!-- Pantalla de acceso -->
+  <div id="login" class="login">
+    <form class="login__caja" id="login-form">
+      <h1>WebMaster Editor</h1>
+      <p class="login__ayuda">Introduce el token de acceso</p>
+      <input type="password" id="login-token" placeholder="Token" autocomplete="current-password" required>
+      <button type="submit" class="btn">Entrar</button>
+      <p class="login__error" id="login-error" hidden>Token incorrecto</p>
+    </form>
+  </div>
+
+  <!-- Editor principal -->
+  <div id="editor" class="editor" hidden>
+
+    <header class="editor__barra">
+      <h1>WebMaster <span>Editor</span></h1>
+      <div class="editor__acciones">
+        <span id="estado" class="estado"></span>
+        <button type="button" class="btn" id="btn-guardar">Guardar y reconstruir</button>
+      </div>
+    </header>
+
+    <div class="editor__cuerpo">
+      <nav class="editor__nav" id="editor-nav">
+        <!-- Secciones generadas por JS -->
+      </nav>
+
+      <main class="editor__principal" id="editor-forms">
+        <!-- Formularios generados por JS -->
+      </main>
+    </div>
+
+  </div>
+
+  <script src="/admin.js"></script>
+</body>
+</html>
